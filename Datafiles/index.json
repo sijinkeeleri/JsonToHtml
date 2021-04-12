@@ -1,0 +1,56 @@
+{
+   "element": "section",
+   "body": {
+       "class": "container",
+       "id":"main",
+       "html":{
+           "element":"div",
+           "body":{
+               "class":"row",
+               "id":"phase1",
+               "html":[
+                    {
+                        "element":"div",
+                        "body":{
+                            "class":"col-12",
+                            "id":"title",
+                            "html":{
+                                "element":"h1",
+                                "body":{
+                                    "class":"",
+                                    "id":"title",
+                                    "html":"Welcome"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "element":"div",
+                        "body":{
+                            "class":"col-12",
+                            "id":"titlecontent",
+                            "html":[
+                                {
+                                "element":"p",
+                                "body":{
+                                    "class":"",
+                                    "id":"title",
+                                    "html":"This is the example of json HTML load"
+                                } 
+                            },
+                            {
+                                "element":"p",
+                                "body":{
+                                    "class":"",
+                                    "id":"title",
+                                    "html":"have a look at it"
+                                }
+                            }
+                        ]
+                        }
+                    }
+                ]    
+            }
+        }
+    }
+}
