@@ -14,3 +14,13 @@ app.loadHtml = function(args){
     }
     return element
 };
+app.loadSelect = function(args,value,id){
+    $.map(args,function(item){
+        let option =$('<option></option>').attr({'class':'form-option'});
+        if($.type(item) == 'object'){
+            $('#'+id).append(option.attr({'value':item[value]}).text(item[value]));
+        }else if($.type(item) == 'string'){
+            $('#'+id).append(option.attr({'value':item}).text(item));
+        }
+    });
+};

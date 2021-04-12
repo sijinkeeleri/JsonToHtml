@@ -1,12 +1,12 @@
 {
    "element": "section",
    "body": {
-       "class": "container",
+       "class": "container bg-dark text-white",
        "id":"main",
-       "html":{
+       "html":[{
            "element":"div",
            "body":{
-               "class":"row",
+               "class":"row bg-secondary",
                "id":"phase1",
                "html":[
                     {
@@ -51,6 +51,49 @@
                     }
                 ]    
             }
+        },
+        {
+            "element": "div",
+            "body": {
+                "class": "row",
+                "id":"phase2",
+                "html":[
+                    {
+                        "element": "div",
+                        "body": {
+                            "class": "col-6",
+                            "id":"",
+                            "html":[
+                                {
+                                    "element": "select",
+                                    "body": {
+                                        "class": "form-control",
+                                        "id":"selectdata",
+                                        "html":""
+                                    }
+                                }
+                               
+                            ]
+                        }
+                    },
+                    {
+                        "element": "div",
+                        "body": {
+                            "class": "col-6",
+                            "id":"",
+                            "html":{
+                                "element": "input",
+                                "body": {
+                                    "class": "form-control",
+                                    "id":"countrystate",
+                                    "html":""
+                                }
+                            }
+                        }
+                    }
+                ]
+            } 
         }
+    ]
     }
 }
